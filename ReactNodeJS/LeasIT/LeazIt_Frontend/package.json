@@ -51,7 +51,7 @@
     "popper.js": "^1.14.3",
     "react": "16.2.0",
     "react-bootstrap": "^0.32.1",
-    "react-dom": "16.2.0",
+    "react-dom": "16.13.0",
     "react-intl-tel-input": "^5.0.5",
     "react-md": "1.2.11",
     "react-native": "^0.55.4",
