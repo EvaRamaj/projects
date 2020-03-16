@@ -1,0 +1,550 @@
+
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: #ffffff!important;
+    display: flex;
+
+}
+.search_bar_nav{
+    display:flex;
+
+}
+.Button_nav{
+    width:2em;
+}
+.Footer_custom{
+    line-height: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-color: #009900!important;
+}
+h3{
+    color:#009900!important;
+}
+h4{
+    color:#009900!important;
+}
+/* css gia tis formes*/
+.custom-select-sm{
+    border: 1px solid #009900!important;
+}
+label{
+    font-weight: bold!important;
+    font-size: 1rem!important;
+}
+input[type=text], input[type=password]{
+    border: 1px solid #009900!important;
+    padding: 0.2em!important;
+    margin-bottom: 1.7em!important;
+    width: 94%!important;
+    margin-left: 0.9em!important;
+}
+input {
+    border: 1px solid #009900 !important;
+    padding: 0.2em !important;
+    margin-bottom: 1.7em !important;
+    width: 94% !important;
+    margin-left: 0.9em !important;
+}
+.Align_Button {
+    display: flex;
+    float: right;
+    justify-content: right;
+    margin-right: 1em;
+}
+
+.Footer{
+  line-height: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  background: #009900;
+}
+
+.logo{
+  display:inline-block;
+  float: left;
+  vertical-align: middle;
+}
+.footer-details{
+
+  dispaly:inline-block;
+  float:right;
+  vertical-align: middle;
+}
+
+.nav-item.nav-link.active{
+    color: #009900!important;
+}
+
+span{
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa {
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  background: none;
+  color: black;
+}
+
+.fa-twitter {
+  background: none;
+  color: black;
+}
+
+.Home_text{
+    color:#009900;
+    font-size: 4em;
+    font-weight: bold;
+    position:relative;
+    clear:both;
+}
+
+.Home_text_details{
+    color:#009900;
+    position:relative;
+    clear:both;
+}
+.page_items{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.search_bar{
+    align-self: center;
+}
+
+.form-control.mr-sm-2{
+    width:23em!important;
+}
+.handShake{
+    align-self: center;
+}
+
+.btn-outline-success {
+    color: #009900;
+    border-color: #009900;
+}
+.form-control {
+    border:2px solid #009900!important;
+}
+.register{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #009900;
+}
+.md-grid{
+    width:100%;
+    font-size: 1em;
+    font-weight: bold;
+}
+.md-text-field-container.md-full-width.md-text-field-container--input.md-row{
+    width: 50%;
+    min-height: 4em;
+    padding-right:2em;
+    display: inline-block!important;
+    align-self: center;
+}
+
+.title{
+    color:#009900;
+    font-size: 2em;
+    font-weight: bold;
+}
+.md-floating-label.md-floating-label--floating.md-text--secondary{
+    float: left;
+
+}
+.md-text-field.md-text-field--floating-margin.md-full-width.md-text{
+    padding-right: 4em;
+    float:right;
+    border:1px solid #009900;
+}
+.md-text-field-inline-indicator.md-password-btn.md-pointer--hover.md-text-field-inline-indicator--floating.md-text--disabled{
+    display:none;
+
+}
+.md-text-field-inline-indicator.md-password-btn.md-pointer--hover.md-text-field-inline-indicator--floating.md-text--secondary{
+    display:none;
+
+}
+.md-divider.md-divider--text-field.md-divider--expand-from-left{
+    display:none;
+}
+.md-btn.md-btn--flat.md-btn--text.md-btn--raised-disabled.md-text--disabled.md-inline-block.md-cell.md-cell--2{
+    padding-left:1%;
+    padding-right:1%;
+    margin-right: 2em;
+    float:right;
+    border:1px solid #009900!important;
+    background-color: #009900;
+    color:white;
+    font-weight: bold;
+
+}
+.md-btn.md-btn--flat.md-btn--text.md-btn--raised-disabled.md-text--disabled.md-inline-block.md-cell.md-cell--2:hover {
+    background-color: white;
+    color: #009900;
+}
+.md-btn.md-btn--raised.md-btn--text.md-pointer--hover.md-background--secondary.md-background--secondary-hover.md-inline-block.md-cell.md-cell--2{
+    border:1px solid #009900!important;
+    background-color: #009900;
+    color:white;
+    padding-left:1%;
+    padding-right:1%;
+    margin-right:1em;
+    font-weight: bold;
+    float:right;
+}
+.md-btn.md-btn--raised.md-btn--text.md-pointer--hover.md-background--secondary.md-background--secondary-hover.md-inline-block.md-cell.md-cell--2:hover{
+    background-color: white;
+    color: #009900;
+}
+.img-fluid.avatar{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+/*login*/
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button{
+    background-color: #009900;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width:200px!important;
+    position:relative;
+}
+.button_list {
+    background-color: #009900;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width:300px!important;
+    position:relative;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 14px 18px;
+    background-color: #f44336!important;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    /*border: 1em;*/
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+.lessor_id {
+    /*border: 1em;*/
+    max-width: 250px;
+    min-width: 250px;
+    min-height: 350px;
+    max-height: 350px;
+}
+
+img.avatar1 {
+    width: 80%;
+    border-radius: 50%;
+}
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    align-self:center!important;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+.Submit_button{
+    width: 150px;
+}
+.Cancel_button{
+    width: 150px;
+}
+
+/*chat*/
+.message-candidate {
+    background: rgba(0, 153, 0, 0.9);
+    padding: 40px;
+    max-width: 600px;
+    max-height: 125px;
+    margin-bottom: 10px;
+    margin-left: 25%;
+}
+
+
+.message-hiring-manager {
+    background: rgba(224, 224, 224, 0.9);
+    padding: 40px;
+    max-width: 600px;
+    margin-bottom: 10px;
+    max-height: 125px;
+}
+
+.messaging {
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+.message-text {
+    margin-top: 10px;
+    width: 300em;
+}
+
+.message-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center center;
+    display: inline-block;
+}
+
+.message-name {
+    color: black!important;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.anticon.anticon-search.ant-input-search-icon{
+    padding-top: 1em;
+}
+
+.custom-select-sm{
+    border: 1px solid #009900!important;
+}
+label{
+    font-weight: bold!important;
+    font-size: 1rem!important;
+}
+input[type=text], input[type=password]{
+    border: 1px solid #009900!important;
+    padding: 0.2em!important;
+    margin-bottom: 1.7em!important;
+    width: 94%!important;
+    margin-left: 0.9em!important;
+}
+input {
+    border: 1px solid #009900 !important;
+    padding: 0.2em !important;
+    margin-bottom: 1.7em !important;
+    width: 94% !important;
+    margin-left: 0.9em !important;
+}
+
+/*item list*/
+.row.items{
+    display: flex;
+}
+/*card*/
+.mdc-card__media.mdc-card__media--square.custom{
+    display: flex;
+    justify-content: center;
+}
+.list_item_header{
+    align-self: center;
+    background-color: #009900;
+    font-weight: bold;
+    font-size: large;
+    display: flex!important;
+    justify-content: center;
+    height: 50px;
+}
+
+.mdc-card__media.mdc-card__media--square.custom_bdet{
+    display: flex;
+    justify-content: center;
+    margin-right: 4em;
+}
+
+.mdc-card__media.mdc-card__media--content.custom{
+    display: flex;
+    justify-content: center;
+}
+.mdc-card__action-buttons.customSearch{
+    display: flex;
+    justify-content: center;
+    max-width: 300px;
+    min-width: 50px;
+}
+
+.mdc-card__action-buttons.custom{
+    display: flex;
+    justify-content: center;
+}
+a.card_link{
+    color: #009900!important;
+}
+a.conv{
+    align-self: center;
+}
+
+.conv_details{
+    display: flex;
+}
+.col-2.justify-content-md-center.hdr{
+    align-self: center;
+}
+.col-2.justify-content-md-center.reply{
+    display: flex;
+
+}
+
+.conv_more{
+    font-size: large;
+    font-weight: bold;
+    align-self: center;
+}
+
+
+.conv_details{
+    display: flex;
+}
+.col-2.justify-content-md-center.hdr{
+    align-self: center;
+}
+.col-2.justify-content-md-center.reply{
+    display: flex;
+
+}
+
+.conv_more{
+    font-size: large;
+    font-weight: bold;
+    align-self: center;
+}
+
+
+input.conv_form_recipient{
+    width: 100%!important;
+    margin: 0!important;
+}
+
+.btn.btn-danger.btn-sm{
+    background-color: red!important;
+}
+.md-cell.md-cell--1.dismiss{
+    background-color: red!important;
+}
+.btn.btn-outline-success.my-2.my-sm-0.search_button_front_page{
+    width: 70px!important;
+    height: 34.38px!important;
+    color: #FFFFFF!important;
+}
+
+.navbar-nav.ml-auto{
+    word-wrap: normal;
+}

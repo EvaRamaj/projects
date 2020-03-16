@@ -1,0 +1,172 @@
+{
+  "mappings": {
+    "doc": {
+      "properties": {
+        "match": {
+          "type": "object"
+        },
+        "username": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "password": {
+          "type": "string",
+          "index": "no"
+        },
+        "profileData": {
+          "properties": {
+            "address": {
+              "properties": {
+                "addressline": {
+                  "type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword",
+                      "ignore_above": 256
+                    }
+                  }
+                },
+                "city": {
+                  "type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword",
+                      "ignore_above": 256
+                    }
+                  }
+                },
+                "country": {
+                  "type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword",
+                      "ignore_above": 256
+                    }
+                  }
+                },
+                "postcode": {
+                  "type": "long"
+                }
+              }
+            },
+            "photo": {
+              "type": "text",
+              "index": "no"
+            },
+            "education": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "type": "keyword",
+                  "ignore_above": 256
+                }
+              }
+            },
+            "experience": {
+              "properties": {
+                "compName": {
+                  "type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword",
+                      "ignore_above": 256
+                    }
+                  }
+                },
+                "description": {
+                  "type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword",
+                      "ignore_above": 256
+                    }
+                  }
+                },
+                "from": {
+                  "type": "date"
+                },
+                "to": {
+                  "type": "date"
+                }
+              }
+            },
+            "firstName": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "type": "keyword",
+                  "ignore_above": 256
+                }
+              }
+            },
+            "gender": {
+              "type": "string",
+              "index": "not_analyzed"
+            },
+            "interest": {
+              "properties": {
+                "industries": {
+                  "type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword",
+                      "ignore_above": 256
+                    }
+                  }
+                },
+                "projects": {
+                  "type": "text",
+                  "fields": {
+                    "keyword": {
+                      "type": "keyword",
+                      "ignore_above": 256
+                    }
+                  }
+                }
+              }
+            },
+            "lastName": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "type": "keyword",
+                  "ignore_above": 256
+                }
+              }
+            },
+            "matchPref": {
+              "properties": {
+                "industry": {
+                  "type": "long"
+                },
+                "interest": {
+                  "type": "long"
+                },
+                "skillset": {
+                  "type": "long"
+                }
+              }
+            },
+            "phoneNo": {
+              "type": "text",
+              "fields": {
+                "keyword": {
+                  "type": "keyword",
+                  "ignore_above": 256
+                }
+              }
+            },
+            "prefix": {
+              "type": "text",
+              "index": "not_analyzed"
+            },
+            "travelPref": {
+              "type": "text",
+              "index": "not_analyzed"
+            }
+          }
+        }
+      }
+    }
+  }
+}

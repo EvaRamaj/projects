@@ -1,0 +1,14 @@
+{
+    "App":{
+            "FrontendServerIP": {
+              "host":"0.0.0.0",
+              "port":"8080",
+              "protocol": "http"
+            },
+            "BackendServerIP": {
+              "host":"0.0.0.0",
+              "port":"3000",
+              "protocol": "http"
+            }
+    }
+}

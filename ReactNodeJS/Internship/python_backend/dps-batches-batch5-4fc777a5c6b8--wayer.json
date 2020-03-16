@@ -1,0 +1,21 @@
+{
+  "type": "service_account",
+
+  "project_id": "dps-batches-batch5",
+
+  "private_key_id": "36e48d7ab830bbaadcdf380bc6aeb776c4cfac2c",
+
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDIBm9oRY5JT3a5\npHGksZfIUvmHXgK619aY08vIiXiLb8HfpOI3nOpLqpSoC4fIdxNx7Hgcc4jmbQnk\nlc2BJvc+7oe4jvvt279LqI6U29TuwEawqBUF/V7VKs4inq6+B2swi4XOP3ZW0YmF\ntR9MIjjlbjirGxqHRhg4Id7b65kDeKme1BGKB4W62ppGdLWIgzVZcUs4BgRTZYIf\nt5qoTOVoIGf/XSN3FAZX+nFG6yARAK+AtvztLtJKWcJkpMFOqaASp2k8fqzE1bpC\nEEArnySKWeSLomT1/YtYgEbM7iWtdNgOkjFXXcupAlpxB6wy0wxSzShcwdCypcfi\n8P+e3uP9AgMBAAECggEAF7N3gPX48aPaUA31r0uhzglS6uDPVv9bPLmf5G+xmmgQ\nI2VgrrFHq9aXDcBsAutlIPMhmlFwT8lsyiqb8qlA07Kk31AF9v26UYcz+dyAgxfC\naI1KDG8kzQJo8X42+2pan6JwpOstJQVoE7FN95H4husECPZJsuyx0vjkdM+aTmhI\npEs4ojX2BoqjdwvcNn2fu68Xtvg5JbyMOktEsaWqwenDIiqgV/XPyhHJyv0Sdifl\nQdZYKT1VqyBbH8nqlMhGrNoP9S3LiCWQqfRyRFxPf83i7IcJs7AW42BNCvUex16T\nIIj/znpO+HIQN6/cIP+8riJwgOkMvZICkM0q8xEaCwKBgQDjmTUNBjjE9uxY6Bz9\nQfGb1uE3j5rt3YWQz/GrB0IMYnkF3UIN/WGorqNZCEIRAL/yQh+/FE7tc+vSt7Wp\nSEcYF9qDyqETODuvn4TgqnYDGqOTTHXgPXrpU8tkb6bxoSLo7bR2qaO6aS9v9BWk\n8SPAL5ELJWxAZYgsHGxLVjGlkwKBgQDg/GDtjlqOLa5mPDpv62OnWIDmLcTmj8ve\nCBJRxcm1nRWBfI6MUO3DUStR6QSwvUPO10Ema/yo+NhxMgi+9bmhLaBqHBykFXmG\nyRQTvOBpWT/YaVsGv7yePrAn/0koMnNQB36PhsX4TUod6EPGQGuDQvYBtfCMxRad\nerzSNadKLwKBgF0IkkPpqCjzGjdZYggv/XgLRPJ2NAlJRMCmD44uoFP5qKi6AbdA\nPLw77q+FDaRvnwaC+wEbZwvvF5WB3LL+xXjWv06h9Ger09H9Lc68PxMTv4uFdKWd\n2/EmfHxom2An0uJN0De1LiUTu/1SU8qhe1Ci4PIicPZ9ykTltWqyKAcbAoGAY0f7\nndjLrSILa6H4R5sgBqDPgMOBuByMYhY9v0gAktwWuWU1okW0JhSTgTnKkBN08Lmc\nTlAo1oe5O3pQ0bOtjqqLt0dgfCfd0NS6v1sBzHtN6TnUqU3C9jHDmmLU7aAVsqMb\n/koC4md45WmxPrL+vpW16VtYI0Z1jFi1Ki3y/JECgYBY+xwgE6YHiZ6EKKTcP7DB\nfx5sRBBdF4Gx3Ii9cyHWpx/CDlRI/CQWIwSPHdFEv+tHIPqiCtNNdtmoLaoeo9iW\nVWXf9QmYs4425k7yJsqQoDlI294jGR+GRUNXA2J4ThDEO9uGzlOjJL3u8PLyBP7l\n8l7bYud3i6XZqo5UGLbQoA==\n-----END PRIVATE KEY-----\n",
+
+  "client_email": "backpackers-vision@dps-batches-batch5.iam.gserviceaccount.com",
+
+  "client_id": "117789252810500142565",
+
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+
+  "token_uri": "https://oauth2.googleapis.com/token",
+
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/backpackers-vision%40dps-batches-batch5.iam.gserviceaccount.com"
+}

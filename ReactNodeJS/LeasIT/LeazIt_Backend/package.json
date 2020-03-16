@@ -1,0 +1,38 @@
+{
+  "name": "LeazIt-backend",
+  "version": "1.0.0",
+  "description": "LeazIt backend as a service",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.lrz.de/ge69sas/LeazIt_Backend.git"
+  },
+  "author": "Team21_Yo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.lrz.de/ge69sas/LeazIt_Backend.git/issues"
+  },
+  "homepage": "https://gitlab.lrz.de/ge69sas/LeazIt_Backend.git#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "devstart": "nodemon ./index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "body-parser": "1.18.2",
+    "express": "4.16.2",
+    "gridfs-stream": "^1.1.1",
+    "helmet": "3.11.0",
+    "jsonwebtoken": "8.1.1",
+    "mongoose": "^5.0.7",
+    "multer": "^1.3.0",
+    "multer-gridfs-storage": "^3.0.1",
+    "node-datetime": "^2.0.6",
+    "regex": "^0.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.14.12"
+  }
+}

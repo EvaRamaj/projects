@@ -1,0 +1,39 @@
+{
+    "App":{
+
+        "webServer":{
+
+          "protocol":"http",
+
+          "host":"35.196.238.181",
+
+          "port":9200
+
+        },
+
+        "elasticSearch":{
+
+          "username":"elastic",
+
+          "password":"Ab28K4MS"
+
+        },
+
+        "emailCredentials": {
+
+          "email":"teamwayer@gmail.com",
+
+          "password":"DPS20182018"
+
+        },
+
+        "AppServerIP": {
+
+          "host":"0.0.0.0",
+
+          "port":"8080"
+
+        }
+
+    }
+}

@@ -1,0 +1,10 @@
+elasticsearch
+datetime
+nltk
+spacy
+jsonify
+Flask
+google-cloud-storage
+google-cloud
+google-cloud-language
+google-api-python-client

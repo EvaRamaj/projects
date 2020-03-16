@@ -1,0 +1,462 @@
+h1 {
+    font-family: Gothic A1;
+    font-weight: bolder;
+    font-size: 45px;
+    line-height: 1.2em;
+    color: #343E3D;
+}
+h2 {
+    font-family: Gothic A1;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.2em;
+    color: #343E3D;
+}
+h3 {
+    font-family: Gothic A1;
+    font-size: 20px;
+    line-height: 1.3em;
+    color: #343E3D;
+}
+h4 {
+    font-family: Gothic A1;
+    font-size: 18px;
+    line-height: 1.4em;
+    color: #343E3D;
+}
+ p {
+     font-family: Gothic A1;
+     font-size: 16px;
+     line-height: 1.3em;
+     color: #343E3D;
+ }
+
+ .boldText {
+     font-weight: bold;
+ }
+
+ .header {
+     height: 100px;
+     padding: 20px;
+ }
+
+ .headerLogo {
+     height: 35px;
+ }
+
+ .headerLink {
+     padding-top: 20px;
+ }
+
+ .positiveBtn {
+     background: #42A459;
+     border-radius: 5px;
+     font-family: Gothic A1;
+     font-size: 18px;
+     line-height: 1.4em;
+     color: #FFFFFF;
+ }
+
+ .homepageCompBtn {
+     width: 100%;
+     height: 50px;
+     margin: 30px;
+ }
+.homepageCompBtn:hover {
+    background: #42A459;
+}
+.homepageCompOtherBtn {
+    width: 100%;
+    height: 50px;
+    margin: 30px;
+    color: #000000;
+    background: #FFFFFF;
+}
+.homepageCompOtherBtn:hover {
+    background: #FFFFFF;
+}
+
+ .negativeBtn {
+     background: #F6621F;
+     border-radius: 5px;
+ }
+
+ .homePageRPMainDiv {
+     /* The image used */
+     background: url("../assets/img/HomePageRP.jpg") no-repeat center center fixed;
+
+     /* Full height */
+     height: 50%;
+
+     /* Center and scale the image nicely */
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+ }
+
+.homePageCompMainDiv {
+    /* The image used */
+    background: url("../assets/img/HomePageCompany.jpg") no-repeat center center fixed;
+
+    /* Full height */
+    height: 50%;
+
+    /* Center and scale the image nicely */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+ .homePageRPDataDiv
+ {
+     height: 530px;
+     background: #FFD166;
+ }
+
+ .homePageCompDataDiv {
+     height: 250px;
+     background: #62C2FF;
+ }
+.homePageCompExpDiv {
+    padding: 4em;
+    background: #FFFFFF;
+}
+
+.homePageCompExpDiagram {
+    margin: auto;
+    display: block;
+}
+
+ .homePageLogo {
+     height: 60px;
+ }
+
+.homePageUnionLogo {
+    height: 80px;
+    margin: auto;
+    display: block;
+}
+
+.homepageUnionText {
+    color: #FFFFFF;
+    padding-top: 40px;
+    text-align: center;
+}
+
+img.bg {
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+
+    /* Set up proportionate scaling */
+    width: 115%;
+    height: auto;
+
+    /* Set up positioning */
+    position: fixed;
+    top: -200px;
+    left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+    img.bg {
+        top: 0;
+        width: 100%;
+        left: 50%;
+        margin-left: -512px;   /* 50% */
+    }
+}
+
+
+.boldPText {
+    font-family: Gothic A1;
+    font-size: 16px;
+    line-height: 1.3em;
+    color: #343E3D;
+    font-weight: bold;
+}
+
+.textarea{
+    cols: 100%;
+}
+
+.searchCardText {
+    font-family: Gothic A1, Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    line-height: 0.8em;
+
+    color: #000000;
+}
+
+.linkedInBtn {
+    height: 50px;
+    width: 140px;
+}
+
+.counterBox {
+    height: 125px;
+    width: 500px;
+}
+
+.counterBoxText {
+    font-family: Gothic A1, Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    line-height: 1.3em;
+
+    color: #000000;
+}
+
+.projectSearchCardText {
+    font-family: Gothic A1, Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: left;
+    line-height: 39px;
+
+    color: #000000;
+}
+
+.borderBoundary {
+    border-left: 1px solid;
+}
+
+.wayerName {
+    font-family: Chivo;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 0px;
+    font-size: 36px;
+    letter-spacing: 0.27em;
+
+    color: #000000!important;
+}
+
+.legal__content {
+    font-family: "Gothic A1";
+    color: #000;
+    font-size: 15px;
+    text-decoration: none solid #000;
+    line-height: 28px;
+}
+
+.u-content {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.legal {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.u-content-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+}
+
+.figmaButton {
+    border-radius: 30px;
+    fill: #6D6D6D;
+}
+
+.userContact1stBox {
+    height: 120px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+    background: #FFFFFF;
+    box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.24), inset 0px 0px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+}
+
+.userContact1stBoxText {
+    font-family: Gothic A1;
+    font-style: normal;
+    line-height: normal;
+    font-size: 25px;
+
+    color: #000000;
+}
+
+.userContactProjectBox {
+    height: 238px;
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.userContactTextBox {
+    height: 319px;
+
+    background: #FAFAFA;
+    box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.24), inset 0px 0px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 2px;
+}
+
+.userContactBackBtn {
+    width: 250px;
+    background: #6D6D6D;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 30px;
+}
+
+.userContactSendBtn {
+    width: 250px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 30px;
+}
+ol.progtrckr {
+    list-style-type: none;
+    padding: 2em;
+    text-align: center;
+}
+
+ol.progtrckr li {
+    display: inline-block;
+    text-align: center;
+    line-height: 4.5rem;
+    cursor: pointer;
+}
+
+ol.progtrckr li span {
+    padding: 0 1.5rem;
+}
+
+@media (max-width: 650px) {
+    .progtrckr li span {
+        display: none;
+    }
+}
+.progtrckr em {
+    display: none;
+    font-weight: 700;
+    padding-left: 1rem;
+}
+
+@media (max-width: 650px) {
+    .progtrckr em {
+        display: inline;
+    }
+}
+
+ol.progtrckr li.progtrckr-todo {
+    color: silver;
+    border-bottom: 4px solid silver;
+}
+
+ol.progtrckr li.progtrckr-doing {
+    color: black;
+    border-bottom: 4px solid #CCCCCC;
+}
+
+ol.progtrckr li.progtrckr-done {
+    color: black;
+    border-bottom: 4px solid #5cb85c;
+}
+
+ol.progtrckr li:after {
+    content: "\00a0\00a0";
+}
+
+ol.progtrckr li:before {
+    position: relative;
+    bottom: -3.7rem;
+    float: left;
+    left: 50%;
+}
+
+ol.progtrckr li.progtrckr-todo:before {
+    content: "\039F";
+    color: silver;
+    background-color: white;
+    width: 1.2em;
+    line-height: 1.4em;
+}
+
+ol.progtrckr li.progtrckr-todo:hover:before {
+    color: #ff4500;
+}
+
+ol.progtrckr li.progtrckr-doing:before {
+    content: "\2022";
+    color: white;
+    background-color: #CCCCCC;
+    width: 1.2em;
+    line-height: 1.2em;
+    border-radius: 1.2em;
+}
+
+ol.progtrckr li.progtrckr-doing:hover:before {
+    color: #ff4500;
+}
+
+ol.progtrckr li.progtrckr-done:before {
+    content: "\2713";
+    color: white;
+    background-color: #5cb85c;
+    width: 1.2em;
+    line-height: 1.2em;
+    border-radius: 1.2em;
+}
+
+ol.progtrckr li.progtrckr-done:hover:before {
+    color: #333;
+}
+.form-control {
+    border: 1px solid #000000;
+}
+.md-divider {
+
+    background: rgb(6, 6, 6)!important;
+}
+.getInvolved{
+    margin-top: 6em!important;
+    padding: 1em 3em!important;
+    background: white;
+    font-size: 1.2em;
+    color: #000000;
+    border-radius: 0.3em;
+}
+.seeProjects{
+    margin-top: 6em!important;
+    padding: 1em 3em!important;
+    background: #117D8B;
+    font-size: 1.2em;
+    color: #FFFFFF;
+    border-radius: 0.3em;
+}
+.navbar {
+    margin-bottom: 1px!important;
+}
+
+.Facts {
+    padding: 1em;
+    font-size: 18px;
+    line-height: 1.4em;
+    background: #FFFFFF!important;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15) !important;
+    border-radius: 5px!important;
+}
+.matchButton{
+    margin-top: 2em!important;
+    align-text: center!important;
+
+}
+.blueText
+{
+    color: blue!important;
+}

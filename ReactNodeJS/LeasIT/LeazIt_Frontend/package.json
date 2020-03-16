@@ -1,0 +1,75 @@
+{
+  "name": "LeazIt-frontend",
+  "version": "0.0.1",
+  "description": "LeazIt Frontend Application React",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sebischair/sebamaster-movie-frontend"
+  },
+  "author": "Team21_Yo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.lrz.de/ge69sas/LeazIt_Frontend/issues"
+  },
+  "homepage": "https://gitlab.lrz.de/ge69sas/LeazIt_Frontend#readme",
+  "engines": {
+    "node": ">=4.3"
+  },
+  "devDependencies": {
+    "babel-core": "6.25.0",
+    "babel-loader": "7.1.1",
+    "babel-plugin-import": "^1.8.0",
+    "babel-preset-env": "1.6.0",
+    "babel-preset-react": "6.24.1",
+    "clean-webpack-plugin": "0.1.17",
+    "css-loader": "0.28.7",
+    "google-maps": "^3.2.1",
+    "extract-text-webpack-plugin": "3.0.1",
+    "file-loader": "^1.1.11",
+    "html-loader": "0.4.5",
+    "html-webpack-plugin": "2.29.0",
+    "img-loader": "^3.0.0",
+    "style-loader": "0.19.0",
+    "url-loader": "^1.0.1",
+    "webpack": "3.3.0",
+    "webpack-dev-server": "2.9.1",
+    "webpack-merge": "4.1.0"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^6.3.1",
+    "antd": "^3.6.4",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.0.0-beta.2",
+    "google-map-react": "^1.0.5",
+    "google-maps-react": "^2.0.2",
+    "image-loader": "0.0.1",
+    "imagemin": "^5.3.1",
+    "jquery": "^3.3.1",
+    "native-base": "^2.6.1",
+    "popper": "^1.0.1",
+    "popper.js": "^1.14.3",
+    "react": "16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "16.2.0",
+    "react-intl-tel-input": "^5.0.5",
+    "react-md": "1.2.11",
+    "react-native": "^0.55.4",
+    "react-native-communications": "^2.2.1",
+    "react-native-elements": "^0.19.1",
+    "react-native-geocoder": "^0.5.0",
+    "react-native-geocoding": "^0.3.0",
+    "react-navigation": "^2.5.5",
+    "react-phone-number-input": "^1.1.7",
+    "react-router-dom": "4.2.2",
+    "react-star-rating-component": "^1.4.1",
+    "styled-components": "3.1.6",
+    "webfontloader": "1.6.28",
+    "reactstrap": "latest"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.prod.js",
+    "start": "webpack-dev-server --open 'Google Chrome' --config webpack.dev.js"
+  }
+}
