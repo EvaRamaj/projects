@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>edo_connect4</name>
+  <version>0.0.1</version>
+  <description>e.DO Connect 4 Simulation and Real Robot, Team Blue Eagles</description>
+
+  <maintainer email="nicolas.lindae@tum.de">Nicolas Lindae</maintainer>
+  <maintainer email="maxi.lund@outlook.com">Maximilian Lund</maintainer>
+  <maintainer email="moka7452@gmail.com">Mohamad Hosein Mirzazadeh Mirzai</maintainer>
+  <maintainer email="ge69fek@mytum.de">Eva Ramaj</maintainer>
+
+  <!-- from here copied from edo_collection/edo_gazebo/package.xml
+       we will modify it to fit our needs ~Ben -->
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!--<build_depend>controller_manager</build_depend>
+  <build_depend>edo_description</build_depend>
+  <build_depend>effort_controllers</build_depend>
+  <build_depend>gazebo_ros</build_depend>
+  <build_depend>gazebo_ros_control</build_depend>
+  <build_depend>joint_state_controller</build_depend>
+  <build_depend>joint_trajectory_controller</build_depend>
+  <build_depend>joint_position_controller</build_depend>
+  <build_depend>robot_state_publisher</build_depend>
+  <build_depend>rostopic</build_depend>
+
+  <build_export_depend>controller_manager</build_export_depend>
+  <build_export_depend>edo_description</build_export_depend>
+  <build_export_depend>effort_controllers</build_export_depend>
+  <build_export_depend>gazebo_ros</build_export_depend>
+  <build_export_depend>gazebo_ros_control</build_export_depend>
+  <build_export_depend>joint_state_controller</build_export_depend>
+  <build_export_depend>joint_trajectory_controller</build_export_depend>
+  <build_export_depend>joint_position_controller</build_export_depend>
+  <build_export_depend>robot_state_publisher</build_export_depend>
+  <build_export_depend>rostopic</build_export_depend>
+
+  <exec_depend>controller_manager</exec_depend>
+  <exec_depend>edo_description</exec_depend>
+  <exec_depend>effort_controllers</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>gazebo_ros_control</exec_depend>
+  <exec_depend>joint_state_controller</exec_depend>
+  <exec_depend>joint_trajectory_controller</exec_depend>
+  <exec_depend>joint_position_controller</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>rostopic</exec_depend>
+  <exec_depend>moveit_simple_controller_manager</exec_depend> -->
+
+  <build_depend>edo_gazebo</build_depend>
+  <build_depend>edo_gripper</build_depend>
+  <build_depend>edo_gripper_moveit</build_depend>
+  <build_depend>edo_utils</build_depend>
+  <build_depend>hector_sensors_description</build_depend>
+  <build_depend>edo_games_sim</build_depend>
+  <build_depend>edo_pnp</build_depend>
+  <build_depend>openni2_camera</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>tf</build_depend>
+
+  <exec_depend>message_runtime</exec_depend>
+
+  <export>
+  </export>
+</package>

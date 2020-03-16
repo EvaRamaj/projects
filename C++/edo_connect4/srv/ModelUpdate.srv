@@ -1,0 +1,4 @@
+int32 last_move_column
+int32 last_move_row
+int32 last_move_player
+---

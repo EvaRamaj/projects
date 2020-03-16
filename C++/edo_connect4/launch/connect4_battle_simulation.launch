@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="sim" default="true"/>
+    <arg name="robot_name_1" default="edo1" />
+    <arg name="robot_name_2" default="edo2" />
+
+    <include file="$(find edo_games_sim)/launch/game_connect_4_board_upload.launch">
+        <arg name="sim" value="$(arg sim)"/>
+    </include>
+
+    <group if="$(arg sim)">
+
+        <!-- e.DO 1 -->
+        <include file="$(find edo_games_sim)/launch/edo_games.launch">
+            <arg name="robot_name" value="$(arg robot_name_1)"/>
+            <arg name="gui" value="true"/>
+            <arg name="origin_xyz" value="'0 0 0'" />
+            <arg name="origin_rpy" value="'0 0 -0.523599'" />
+            <arg name="world_name" value="$(find edo_games_sim)/worlds/edo_battle.world"/>
+        </include>
+        <!-- e.DO 2 -->
+        <include file="$(find edo_games_sim)/launch/edo_games.launch">
+            <arg name="robot_name" value="$(arg robot_name_2)"/>
+            <arg name="gui" value="false"/>
+            <arg name="origin_xyz" value="'0.85 0.015 0'" />
+            <arg name="origin_rpy" value="'0 0 ${PI -0.523599}'" />
+        </include>
+
+        <group ns="$(arg robot_name_1)">
+            <include file="$(find edo_gripper_moveit)/launch/edo_moveit_planning_execution.launch">
+                <arg name="sim" value="$(arg sim)"/>
+                <arg name="robot_name" value="$(arg robot_name_1)"/>
+            </include>
+        </group>
+        <group ns="$(arg robot_name_2)">
+            <include file="$(find edo_gripper_moveit)/launch/edo_moveit_planning_execution.launch">
+                <arg name="sim" value="$(arg sim)"/>
+                <arg name="robot_name" value="$(arg robot_name_2)"/>
+            </include>
+        </group>
+
+
+    </group>
+
+    <group unless="$(arg sim)">
+        <!-- In real world we do not have the transform to the robot base, so publish it here -->
+        <node pkg="tf2_ros" type="static_transform_publisher" name="game_connect_4_edo_tf_broadcaster" args="0 0 0 0 0 0 world $(arg robot_name_1)/edo_base_link " />
+    </group>
+
+    <group ns="$(arg robot_name_1)">
+        <param name="sim" type="bool" value="$(arg sim)"/>
+    </group>
+    <group ns="$(arg robot_name_2)">
+        <param name="sim" type="bool" value="$(arg sim)"/>
+    </group>
+
+</launch>

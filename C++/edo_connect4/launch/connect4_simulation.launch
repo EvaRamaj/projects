@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="sim" default="true"/>
+    <arg name="robot_name" default="edo" />
+
+    <!-- Launch hanoi sim -->
+    <include file="$(find edo_games_sim)/launch/game_connect_4.launch">
+        <arg name="sim" value="$(arg sim)"/>
+        <arg name="robot_name" value="$(arg robot_name)"/>
+    </include>
+
+    <group if="$(arg sim)">
+    </group>
+
+    <group unless="$(arg sim)">
+    </group>
+
+</launch>

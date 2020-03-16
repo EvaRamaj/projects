@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="sim" default="true" />
+    <arg name="robot_name" default="edo" />
+    <arg name="edo2" default="false" />
+    <arg name="use_camera" default="true" />
+    <arg name="dice" default="false" />
+    <arg name="blue_team" default="false" />
+    <arg name="speak" default="false" />
+    <arg name="player_name" default="friend" />
+    <group ns="$(arg robot_name)">
+        <param name="sim" type="bool" value="$(arg sim)"/>
+        <param name="edo2" type="bool" value="$(arg edo2)"/>
+        <param name="use_camera" type="bool" value="$(arg use_camera)"/>
+        <param name="dice" type="bool" value="$(arg dice)"/>
+        <param name="blue_team" type="bool" value="$(arg blue_team)"/>
+        <param name="speak" type="bool" value="$(arg speak)"/>
+        <param name="player_name" type="string" value="$(arg player_name)"/>
+
+        <param name="token_red_path" type="string" value="$(find edo_games_sim)/urdf/token_red.urdf"/>
+        <param name="token_blue_path" type="string" value="$(find edo_games_sim)/urdf/token_blue.urdf"/>
+
+        <node pkg="edo_connect4" type="edo_connect4_node" name="edo_connect4_node" output="screen">
+            <param name="tf_prefix" type="string" value="$(arg robot_name)"/>
+        </node>
+    </group>
+</launch>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="sim" default="true"/>
+    <arg name="robot_name" default="edo" />
+    
+    <group ns="$(arg robot_name)">
+        <node name="connect4_state_server" pkg="edo_connect4" type="connect4_state_server.py" />
+
+        <!-- Make the robot speak -->
+        <node name="speak_server" pkg="edo_connect4" type="speak_server.py" />
+
+        <!-- Get the first player from Aruco Dice -->
+        <node name="aruco_dice" pkg="edo_connect4" type="aruco_dice.py" />
+
+    </group>
+
+    <!-- Recording joint positions, for joint movement -->
+    <node name="return_joint_state" pkg="edo_connect4" type="return_joint_state.py" />
+
+    <!-- Launch move services -->
+    <include file="$(find edo_pnp)/launch/pnp_services.launch">
+        <arg name="sim" value="$(arg sim)"/>
+        <arg name="robot_name" value="$(arg robot_name)"/>
+    </include>
+</launch>

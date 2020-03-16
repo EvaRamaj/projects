@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+    <rosparam command="load" file="$(find edo_connect4)/config/params.yaml"/>
+    <node name="mic_client" pkg="edo_connect4" type="mic_client.py" output="screen" respawn="true"/>
+    <node name="dialogflow_client" pkg="edo_connect4" type="dialogflow_client.py" output="screen"/>
+</launch>

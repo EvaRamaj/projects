@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="sim" default="true" />
+    <arg name="robot_name" default="edo" />
+    <arg name="tokens" default="8" />
+    <arg name="edo2" default="false" />
+    <arg name="use_camera" default="true" />
+    <group ns="$(arg robot_name)">
+        <param name="sim" type="bool" value="$(arg sim)"/>
+        <param name="tokens" type="int" value="$(arg tokens)"/>
+        <param name="edo2" type="bool" value="$(arg edo2)"/>
+        <param name="use_camera" type="bool" value="$(arg use_camera)"/>
+        <node pkg="edo_hanoi" type="edo_hanoi_node" name="edo_hanoi_node" output="screen">
+            <param name="tf_prefix" type="string" value="$(arg robot_name)"/>
+        </node>
+    </group>
+</launch>

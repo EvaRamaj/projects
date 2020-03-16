@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="sim" default="true"/>
+    <arg name="robot_name" default="edo" />
+    <!-- Launch move services -->
+    <include file="$(find edo_pnp)/launch/pnp_services.launch">
+        <arg name="sim" value="$(arg sim)"/>
+        <arg name="robot_name" value="$(arg robot_name)"/>
+    </include>
+</launch>

@@ -1,0 +1,9 @@
+PyAudio
+google-cloud-speech
+six
+google-api-python-client
+dialogflow
+pyyaml
+numpy
+protobuf-to-dict
+google-cloud-texttospeech
